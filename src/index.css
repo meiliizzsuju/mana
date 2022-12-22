@@ -41,6 +41,11 @@ body {
   color: var(--color-text-light);
 }
 
+.btn-trans{
+  background-color: transparent;
+  color: var(--color-btn-bg);
+}
+
 
 .section__padding{
   padding: 1rem;
