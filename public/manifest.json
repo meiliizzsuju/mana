@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MANA",
+  "name": "Mana Dee Why",
+  "description": "Relax, unwind, and rejuvenate with a massage from our expert therapists. We offer a range of treatments to suit your specific needs and preferences.",
   "icons": [
     {
       "src": "favicon.ico",
