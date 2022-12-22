@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mana/static/css/main.5cd12e95.css",
+    "main.js": "/mana/static/js/main.d31b4734.js",
+    "static/media/mana-logo.png": "/mana/static/media/mana-logo.0760e21b6fab16c44019.png",
+    "index.html": "/mana/index.html",
+    "main.5cd12e95.css.map": "/mana/static/css/main.5cd12e95.css.map",
+    "main.d31b4734.js.map": "/mana/static/js/main.d31b4734.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cd12e95.css",
+    "static/js/main.d31b4734.js"
+  ]
+}
