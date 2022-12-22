@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {Routes, Route} from 'react-router-dom';
+
+import Home from './container/Home';
 
 const App = () => {
   return (
-    <div>
-      App
-      <h1 className='text-2xl'>Mana</h1>
-    </div>
+    <Routes>
+      <Route path='/*' element={<Home />} />
+    </Routes>
   )
 }
 

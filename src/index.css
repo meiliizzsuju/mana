@@ -7,10 +7,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 
-h1,h2,h3,h4,h5,.heading {
+:root {
+  --font-family: 'Lato', sans-serif;
+  --font-family-head: 'Rufina', serif;
+
+  
+  --color-bg: #dbd6d0;
+  --color-text: #050505;
+  --color-text-light: #fff;
+  --color-subtext: #FF8A71;
+  --color-btn-text: #fff;
+  --color-btn-bg: #2c3511;
+}
+
+
+h1,h2,h3,h4,h5,.font-heading {
   font-family: 'Rufina', serif;
 }
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: var(--color-bg);
+}
+
+
+.btn{
+  border: 2px solid var(--color-btn-bg);
+  background-color: var(--color-btn-bg);
+  padding: 0.5rem 2rem;
+
+  font-family: var(--font-family-head);
+  font-weight: 700;
+  color: var(--color-text-light);
+}
+
+
+.section__padding{
+  padding: 1rem;
+}
+
+
+
+/* Tablet */
+
+@media (min-width: 768px){
+  .section__padding{
+    padding: 2rem;
+  }
 }
