@@ -17,7 +17,7 @@ const Banner = () => {
       <div className='banner__image'>
         <img src={banner_img} alt="banner" width={isMobile ? 250 : 800}/>
       </div>
-      <div className='banner__contant section__padding'>
+      <div className='banner__content section__padding'>
         <h1 className='heading'>At Mana</h1>
         <h2 className='paragraph mb-5'>Take a break from the world and treat yourself to some well-deserved indulgence at Mana</h2>
         <Link to='/about' className='m-1 mx-2 btn lg:ml-4'>
