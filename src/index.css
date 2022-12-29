@@ -59,4 +59,8 @@ body {
   .section__padding{
     padding: 2rem;
   }
+
+  .small{
+    display: none;
+  }
 }
