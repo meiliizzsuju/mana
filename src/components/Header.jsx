@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import logo from '../assets/mana-logo.png'
 
+const BOOKNOW_BTN = "https://squareup.com/appointments/book/92uyj1egwnos8s/L1SCK0086N9VX/start";
+
 const Header = () => {
   return (
     <header className='header section__padding'>
@@ -19,7 +21,7 @@ const Header = () => {
           <div className='header__contact flex items-center md:w-4/5 md:justify-end'>
             <a href='tel:0280187443' className='m-1 mx-2'>Call : (02) 8018 7443</a>
 
-            <a href="https://mana-107483.square.site/"
+            <a href={BOOKNOW_BTN}
               className='m-1 mx-2 btn lg:ml-4'
             >
               Book Now
