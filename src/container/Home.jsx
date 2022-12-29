@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 
-import {Banner} from '../container/index';
+import {Banner,Services} from '../container/index';
 
 const PAGE_NAME = `page-home`;
 
@@ -10,6 +10,7 @@ const Home = () => {
     <div className={PAGE_NAME}>
       <Header/>
       <Banner/>
+      <Services/>
     </div>
   )
 }

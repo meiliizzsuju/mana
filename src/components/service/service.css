@@ -1,0 +1,53 @@
+.service{
+  overflow: hidden;
+  position: relative;
+  padding-top: 30%;
+}
+
+.service img{
+  position: absolute;
+  height: auto;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.service__title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(222 194 161 / 50%);
+  transition: all 0.25s ease-in-out;
+
+  text-align: center;
+}
+
+
+.service__title:hover,
+.service__title:active,
+.service__title:focus{
+  background-color: rgb(222 194 161 / 100%);
+  letter-spacing: 0.5em;
+}
+
+
+
+/* md */
+@media (min-width: 1024px){
+  .service__title{
+    font-size: 1.25rem;
+  }
+}
+
+
+/* lx screen */
+@media (min-width: 1280px){
+  .service__title{
+    font-size: 1.5rem;
+  }
+}

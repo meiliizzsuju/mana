@@ -1,0 +1,58 @@
+.services{
+  padding-top: 2rem;
+}
+
+.services__container .service{
+  display: block;
+  margin-top: 0.5rem;
+}
+
+
+
+
+/* Tablet */
+
+@media (min-width: 768px){
+  .services__container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .services__container .service{
+    width: 50%;
+    margin: 0;
+    padding-top: 26%;
+  }
+  
+  .services__container .service:last-child{
+    width: 100%;
+  }
+}
+
+
+/* md */
+@media (min-width: 1024px){
+  .services__container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .services__container .service{
+    width: 33.33%;
+    padding-top: 18%;
+  }
+
+  .services__container .service:nth-child(4n+4),
+  .services__container .service:last-child{
+    width: 50%;
+  }
+}
+
+
+/* lx screen */
+
+@media (min-width: 1280px){
+  .services .section__padding{
+    padding-left: 5rem;
+  }
+}

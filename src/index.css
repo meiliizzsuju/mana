@@ -11,13 +11,14 @@
   --font-family: 'Lato', sans-serif;
   --font-family-head: 'Rufina', serif;
 
+  --color-secondary-rgb: #dfc2a4;
   
-  --color-bg: #dbd6d0;
+  --color-bg: #e8e4d6;
   --color-text: #050505;
   --color-text-light: #fff;
-  --color-subtext: #FF8A71;
+  --color-subtext: #684537;
   --color-btn-text: #fff;
-  --color-btn-bg: #2c3511;
+  --color-btn-bg: #393637;
 }
 
 html{
@@ -38,10 +39,11 @@ body {
 .btn{
   display: inline-block;
   border: 2px solid var(--color-btn-bg);
+  border-radius: 50px;
   background-color: var(--color-btn-bg);
   padding: 0.5rem 2rem;
 
-  font-family: var(--font-family-head);
+  font-family: var(--font-family);
   font-weight: 700;
   color: var(--color-text-light);
 }
