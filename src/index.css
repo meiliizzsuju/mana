@@ -55,7 +55,11 @@ body {
 
 
 .section__padding{
-  padding: 1rem;
+  padding: 2rem;
+}
+
+.section__padding-lx{
+  padding: 4rem 2rem;
 }
 
 
@@ -74,7 +78,7 @@ body {
 
 @media (min-width: 768px){
   .section__padding{
-    padding: 2rem;
+    padding: 3rem;
   }
 
   .small{
@@ -92,6 +96,15 @@ body {
 
 
 @media (min-width: 1024px){
+  .section__padding{
+    padding: 4rem;
+  }
+
+
+  .section__padding-lx{
+    padding: 7rem 4rem;
+  }
+
   .heading {
     font-size: 48px;
   }
@@ -118,6 +131,14 @@ body {
 /* 2lx screen */
 
 @media (min-width: 1536px){
+  .section__padding{
+    padding: 5rem;
+  }
+
+  .section__padding-lx{
+    padding: 9rem 5rem;
+  }
+
   .heading {
     font-size: 64px;
   }
