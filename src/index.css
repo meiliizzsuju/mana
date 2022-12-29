@@ -20,6 +20,10 @@
   --color-btn-bg: #2c3511;
 }
 
+html{
+  font-size: 17px;
+}
+
 
 h1,h2,h3,h4,h5,.font-heading {
   font-family: 'Rufina', serif;
@@ -32,6 +36,7 @@ body {
 
 
 .btn{
+  display: inline-block;
   border: 2px solid var(--color-btn-bg);
   background-color: var(--color-btn-bg);
   padding: 0.5rem 2rem;
@@ -52,6 +57,16 @@ body {
 }
 
 
+/* headings */
+.heading{
+  font-size: 24px;
+}
+
+.paragraph{
+  font-size: 17px;
+  font-family: var(--font-family);
+}
+
 
 /* Tablet */
 
@@ -62,5 +77,50 @@ body {
 
   .small{
     display: none;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .paragraph {
+    font-size: 19px;
+  }
+}
+
+
+@media (min-width: 1024px){
+  .heading {
+    font-size: 48px;
+  }
+
+  .paragraph {
+    font-size: 24px;
+  }
+}
+
+
+/* lx screen */
+
+@media (min-width: 1280px){
+  .heading {
+    font-size: 52px;
+  }
+
+  .paragraph {
+    font-size: 36px;
+  }
+}
+
+
+/* 2lx screen */
+
+@media (min-width: 1536px){
+  .heading {
+    font-size: 64px;
+  }
+
+  .paragraph {
+    font-size: 48px;
   }
 }

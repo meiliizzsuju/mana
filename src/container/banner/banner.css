@@ -1,0 +1,30 @@
+
+
+/* Tablet */
+
+@media (min-width: 768px){
+  .banner__contant{
+    text-align: right;
+  }
+  
+}
+
+
+
+/* lx screen */
+
+@media (min-width: 1280px){
+  .banner{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .banner__contant.section__padding{
+    padding-right: 5rem;
+  }
+
+  .banner__image {
+    width: 40%;
+    flex: 0 0 auto;
+  }
+}
