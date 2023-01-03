@@ -11,7 +11,7 @@ const Review = ({msg,stars}) => {
     let print_star = [];
     if(stars){
       for (let i = 0; i < stars; i++) {
-        print_star.push(<img src={star_icon} alt="review-star" width={(isMobile ? (15) : (30))} height={30} className='review__box--star'/>)
+        print_star.push(<img src={star_icon} alt="review-star" width={(isMobile ? (15) : (30))} height={30} className='review__box--star' aria-hidden="true"/>)
       }
     }
     return print_star
@@ -20,7 +20,7 @@ const Review = ({msg,stars}) => {
 
   return (
     <div className='review__box'> 
-      <div className='review__box--top'>
+      <div className='review__box--top' aria-label={stars+` review stars`}>
       {getStar()}
       </div>
       {msg ?
