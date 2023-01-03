@@ -1,0 +1,72 @@
+.reviews__container .slick-list{
+  padding-left: 1rem;
+  padding-right: 14%;
+}
+
+.reviews__container .slick-list,
+.reviews__container .slick-track{
+  display: flex;
+  align-items: stretch;
+}
+
+.reviews__container  .slick-slide, .reviews__container  .slick-slide>div {
+  height: 100%;
+}
+
+.reviews__container .slick-slide{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.reviews__container .slick-dots{
+  bottom: -2.5rem;
+}
+
+.reviews__container .review__box{
+  height: 100%;
+  min-width: 320px;
+}
+
+
+
+
+/* Tablet */
+
+@media (min-width: 768px){
+  .reviews__container .slick-list{
+    padding-left: 2rem;
+  }
+  .reviews__container .review__box{
+    min-width: 450px;
+  }
+}
+
+@media (min-width: 1024px){
+  .reviews__container .slick-list{
+    padding-left: 3rem;
+  }
+
+  .reviews__container .slick-dots {
+    bottom: -3rem;
+  }
+}
+
+
+/* lx screen */
+
+@media (min-width: 1280px){
+  .reviews__container .review__box{
+    min-width: 485px;
+  }
+}
+
+
+@media (min-width: 1536px){
+  .reviews__container .slick-list{
+    padding-left: 4rem;
+  }
+
+  .reviews__container .slick-dots {
+    bottom: -4rem;
+  }
+}

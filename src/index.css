@@ -112,6 +112,10 @@ body {
   .paragraph {
     font-size: 24px;
   }
+
+  p,a,.btn{
+    font-size: 19px; 
+  }
 }
 
 
