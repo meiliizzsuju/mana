@@ -69,7 +69,7 @@ const Reviews = () => {
       </div>
 
       <div className='reviews__footer text-center section__padding'>
-        <a href={REVIEW_ADD_LINK} target='_blank' rel="noreferrer"  className='btn btn-trans my-6 mx-auto'>Share us your thought..</a>
+        <a href={REVIEW_ADD_LINK} target='_blank' rel="noreferrer"  className='btn btn-trans my-6 mx-auto'>Share us your thoughts..</a>
       </div>
     </section>
   )
