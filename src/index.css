@@ -36,6 +36,24 @@ body {
 }
 
 
+a::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  left: 0;
+  background-color: var(--color-btn-bg);
+  transition: width 0.25s ease-in-out ;
+}
+
+a:hover::before,
+a:active::before,
+a:focus::before{
+  width: 100%;
+}
+
+
 .btn{
   display: inline-block;
   border: 2px solid var(--color-btn-bg);
@@ -46,11 +64,31 @@ body {
   font-family: var(--font-family);
   font-weight: 700;
   color: var(--color-text-light);
+  transition: all 0.25s ease-in ;
+}
+
+.btn::before{
+  display: none;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus{
+  background-color: var(--color-subtext);
+  border-color: var(--color-subtext);
 }
 
 .btn-trans{
   background-color: transparent;
   color: var(--color-btn-bg);
+}
+
+.btn-trans:hover,
+.btn-trans:active,
+.btn-trans:focus{
+  background-color: var(--color-subtext);
+  border-color: var(--color-subtext);
+  color: var(--color-text-light);
 }
 
 

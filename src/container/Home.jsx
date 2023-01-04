@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
 
-import {Banner,Services,Reviews} from '../container/index';
+import {Banner,Services,Reviews,Footer} from '../container/index';
 import CTA from '../components/cta/CTA';
 
 const PAGE_NAME = `page-home`;
@@ -19,6 +19,7 @@ const Home = () => {
         btn_title="Book Now" 
       />
       <Reviews/>
+      <Footer/>
     </div>
   )
 }
