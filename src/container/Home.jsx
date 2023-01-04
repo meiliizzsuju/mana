@@ -1,8 +1,6 @@
 import React from 'react';
-import Header from '../components/header/Header';
 
-import {Banner,Services,Reviews,Footer} from '../container/index';
-import CTA from '../components/cta/CTA';
+import {Header,Banner,Services,Reviews,Footer,CTA} from '../components/index';
 
 const PAGE_NAME = `page-home`;
 
