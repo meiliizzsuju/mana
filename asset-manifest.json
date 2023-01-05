@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.c44fac2d.css",
-    "main.js": "/static/js/main.2d6e8911.js",
-    "static/media/banner.jpg": "/static/media/banner.8e24cf7b575c7497673d.jpg",
-    "static/media/service.jpg": "/static/media/service.2f442473f48246a04c68.jpg",
-    "static/media/mana-logo.png": "/static/media/mana-logo.0760e21b6fab16c44019.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.c44fac2d.css.map": "/static/css/main.c44fac2d.css.map",
-    "main.2d6e8911.js.map": "/static/js/main.2d6e8911.js.map"
+    "main.css": "/mana/static/css/main.b1ba3ff6.css",
+    "main.js": "/mana/static/js/main.cded1eb5.js",
+    "static/media/banner.jpg": "/mana/static/media/banner.8e24cf7b575c7497673d.jpg",
+    "static/media/service.jpg": "/mana/static/media/service.2f442473f48246a04c68.jpg",
+    "static/media/mana-logo.png": "/mana/static/media/mana-logo.0760e21b6fab16c44019.png",
+    "static/media/slick.svg": "/mana/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/mana/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/mana/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/mana/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/mana/index.html",
+    "main.b1ba3ff6.css.map": "/mana/static/css/main.b1ba3ff6.css.map",
+    "main.cded1eb5.js.map": "/mana/static/js/main.cded1eb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c44fac2d.css",
-    "static/js/main.2d6e8911.js"
+    "static/css/main.b1ba3ff6.css",
+    "static/js/main.cded1eb5.js"
   ]
 }
