@@ -15,7 +15,7 @@ const Footer = () => {
         <h5>Contact</h5>
         <ul>
           <li>
-            <a href="tel:0280187443" class="m-1 mx-2" aria-label='Call 02 8018 7443'>(02) 8018 7443</a>
+            <a href="tel:0280187443" className="m-1 mx-2" aria-label='Call 02 8018 7443'>(02) 8018 7443</a>
           </li>
           <li>
             <a href={FB_LINK} target="_blank" rel="noreferrer">

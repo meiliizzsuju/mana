@@ -11,7 +11,7 @@ const Review = ({msg,stars}) => {
     let print_star = [];
     if(stars){
       for (let i = 0; i < stars; i++) {
-        print_star.push(<img src={star_icon} alt="review-star" width={(isMobile ? (15) : (30))} height={30} className='review__box--star' aria-hidden="true"/>)
+        print_star.push(<img src={star_icon} alt="review-star" width={(isMobile ? (15) : (30))} height={30} className='review__box--star' aria-hidden="true" key={i}/>)
       }
     }
     return print_star

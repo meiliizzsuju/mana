@@ -1,0 +1,35 @@
+.promobar{
+  background-color: var(--color-tertiary);
+}
+
+.promobar .paragraph span{
+  position: relative;
+  display: inline-block;
+}
+
+.promobar .paragraph .spacing{
+  width: 0.5rem;
+}
+
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  animation: flip 2s forwards;
+  animation-delay: calc(.01s * var(--i))
+}
+
+/* 2lx screen */
+
+@media (min-width: 1536px){
+  .promobar .paragraph{
+    font-size: 36px;
+  }
+}
