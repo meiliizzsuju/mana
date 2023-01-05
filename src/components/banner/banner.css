@@ -7,6 +7,10 @@
 }
 
 
+.banner__content--sup-title{
+  font-size: 20px;
+}
+
 /* Tablet */
 
 @media (min-width: 768px){
@@ -19,23 +23,43 @@
     text-align: right;
   }
   
+  .banner__content.section__padding{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .banner__content--sup-title{
+    font-size: 25px;
+  }
 }
 
+@media (min-width: 1024px){
+  .banner__content--sup-title{
+    font-size: 34px;
+  }
+}
 
 
 /* lx screen */
 
 @media (min-width: 1280px){
-  .banner{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
 
   .banner__content.section__padding{
     padding-right: 5rem;
   }
 
   .banner__image {
-    width: 40%;
+    width: 50%;
+  }
+
+  .banner__content--sup-title{
+    font-size: 40px;
+  }
+}
+
+
+@media (min-width: 1536px){
+  .banner__content--sup-title{
+    font-size: 55px;
   }
 }
