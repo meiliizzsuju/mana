@@ -2,8 +2,13 @@
   width: 100%;
 }
 
-.banner__content .heading{
-  font-style: italic;
+.banner__content--titiles h1{
+  font-size: 40px;
+}
+
+.banner__content--titiles h1,
+.banner__content--titiles h2{
+  line-height: 1.2;
 }
 
 
@@ -22,7 +27,7 @@
   .banner__content{
     text-align: right;
   }
-  
+
   .banner__content.section__padding{
     padding-top: 0;
     padding-bottom: 0;
@@ -31,11 +36,18 @@
   .banner__content--sup-title{
     font-size: 25px;
   }
+
+  .banner__content--titiles h1{
+    font-size: 44px;
+  }
 }
 
 @media (min-width: 1024px){
   .banner__content--sup-title{
     font-size: 34px;
+  }
+  .banner__content--titiles h1{
+    font-size: 52px;
   }
 }
 
@@ -55,11 +67,21 @@
   .banner__content--sup-title{
     font-size: 40px;
   }
+
+  .banner__content--titiles h1{
+    font-size: 90px;
+    line-height: 0.8;
+  }
 }
 
 
 @media (min-width: 1536px){
   .banner__content--sup-title{
     font-size: 55px;
+  }
+
+
+  .banner__content--titiles h1{
+    font-size: 90px;
   }
 }

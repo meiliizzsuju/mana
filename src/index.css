@@ -3,13 +3,20 @@
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Branch';
+  src: url(./assets/fonts/Branch.woff) format("woff"), /* Modern Browsers */
+       url(./assets/fonts/Branch.ttf)  format("truetype"), /* Safari, Android, iOS */
+       url(./assets/fonts/Branch.svg) format("svg"); /* Legacy iOS */
+}
 
 
 :root {
   --font-family: 'Lato', sans-serif;
   --font-family-head: 'Rufina', serif;
+  --font-family-logo: 'Branch', serif;
 
   --color-secondary-rgb: #dfc2a4;
   --color-tertiary: #e0c2a3;
@@ -29,6 +36,10 @@ html{
 
 h1,h2,h3,h4,h5,.font-heading {
   font-family: 'Rufina', serif;
+}
+
+.font-logo{
+  font-family: var(--font-family-logo);
 }
 
 body {

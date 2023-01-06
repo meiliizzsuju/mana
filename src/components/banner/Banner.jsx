@@ -47,10 +47,10 @@ const Banner = () => {
       </div>
       <div className='banner__content section__padding'>
         <div className='banner__content--titiles mb-4'>
-          <h1 className='heading'>Mana 
-          <h2 className='banner__content--sup-title'>Thai Massage & Wellness</h2></h1>
+          <h1 className='font-logo heading'>mana</h1>
+          <h2 className='banner__content--sup-title font-logo heading italic'>Thai Massage & Wellness</h2>
         </div>
-        <p className='paragraph mb-5' aria-label='Take a break from the world and treat yourself to some well-deserved indulgence at '>Take a break from the world and treat yourself to some well-deserved indulgence at <span className='font-heading' aria-hidden='true'>Mana</span></p>
+        <p className='paragraph mb-5' aria-label='Take a break from the world and treat yourself to some well-deserved indulgence at '>Take a break from the world and treat yourself to some well-deserved indulgence at your local area.</p>
         <a href={BOOKNOW_BTN} className='m-1 mx-2 btn lg:ml-4'>
           Make an appointment
         </a>
