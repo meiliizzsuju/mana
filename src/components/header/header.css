@@ -1,6 +1,19 @@
+@media (max-width: 400px){
+  .header__contact{
+    flex-direction: column;
+  }
+
+  .header__contact a{
+    display: block;
+  }
+
+  .header__contact a + a{
+    margin-top:  1rem;
+  }
+}
 
 @media (max-width: 550px){
-  .header .section__padding{
+  .header.section__padding{
     padding: 1rem;
   }
 }
