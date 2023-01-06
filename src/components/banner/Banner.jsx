@@ -14,6 +14,9 @@ import "slick-carousel/slick/slick-theme.css";
 
 import './banner.css';
 
+
+const BOOKNOW_BTN = "https://squareup.com/appointments/book/92uyj1egwnos8s/L1SCK0086N9VX/start";
+
 const Banner = () => {
   const isMobile = useMediaQuery({ maxWidth: 550 })
   const isRetina = useMediaQuery({ minResolution: '2dppx' })
@@ -48,9 +51,9 @@ const Banner = () => {
           <h2 className='banner__content--sup-title'>Thai Massage & Wellness</h2></h1>
         </div>
         <p className='paragraph mb-5' aria-label='Take a break from the world and treat yourself to some well-deserved indulgence at '>Take a break from the world and treat yourself to some well-deserved indulgence at <span className='font-heading' aria-hidden='true'>Mana</span></p>
-        <Link to='/about' className='m-1 mx-2 btn lg:ml-4'>
-          Learn more
-        </Link>
+        <a href={BOOKNOW_BTN} className='m-1 mx-2 btn lg:ml-4'>
+          Make an appointment
+        </a>
       </div>
     </section>
   )
