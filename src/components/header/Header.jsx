@@ -13,7 +13,7 @@ const Header = () => {
         <div className='flex flex-col justify-center items-center md:flex-row w-full'>
           <Link
             to='/'
-            className='block w-2/5 m-2 md:w-40'
+            className='block w-2/5 m-2 md:w-40 header-logo'
           >
             <img src={logo} alt="logo" 
             />

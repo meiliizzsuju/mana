@@ -1,3 +1,7 @@
+.header-logo::before{
+  display: none;
+}
+
 @media (max-width: 400px){
   .header__contact{
     flex-direction: column;
