@@ -1,7 +1,9 @@
 import React from 'react';
 import Service from '../../components/service/Service';
 
-import './services.css'
+import './services.css';
+
+import {services} from '../../utils/data';
 
 const Services = () => {
   return (
@@ -11,21 +13,15 @@ const Services = () => {
       </div>
 
       <div className='services__container'>
-        <Service title="Traditional Thai Massage"
-          link='/ser1'
-        />
-        <Service title="Thai Oil Massage"
-          link='/ser2'
-        />
-        <Service title="Relaxing/Aroma Oil Massage"
-          link='/ser3'
-        />
-        <Service title="Organic Coconut Oil & Hot Stone Massage"
-          link='/ser4'
-        />
-        <Service title="Remedial / Deep Tissue Massage"
-          link='/ser5'
-        />
+        {
+          services.map((service,i) => (
+            <Service title={service.name}
+              link={service.slug}
+              serviceObj={service}
+              key={service.slug}
+            />
+          ))
+        }
       </div>
     </section>
   )

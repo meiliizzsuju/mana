@@ -1,0 +1,17 @@
+
+/* md */
+@media (min-width: 1024px){
+  .navsidebar ul{
+    columns: 2;
+  }
+}
+
+
+
+/* lx screen */
+
+@media (min-width: 1280px){
+  .navsidebar ul{
+    columns: 3;
+  }
+}

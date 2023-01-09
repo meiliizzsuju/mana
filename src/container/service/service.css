@@ -1,0 +1,46 @@
+.service-detail__content--presure{
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.service-detail__content--precaution{
+  background-color: var(--color-tertiary);
+  padding: 1.5rem 2rem;
+  margin: 1rem 0;
+}
+
+
+.service-detail__bottom{
+  background-color: var(--color-quaternary);
+  color: var(--color-text-light);
+}
+
+.service-detail__bottom a::before{
+  background-color: var(--color-text-light);
+}
+
+.service-detail__bottom a.active::before{
+  width: 100%;
+}
+
+
+/* Tablet */
+
+@media (min-width: 768px){
+  .service-detail__content--precaution{
+    margin: 3rem 0;
+  }
+}
+
+
+/* md */
+@media (min-width: 1024px){
+  .service-detail__content .has-image{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    column-gap: 2rem;
+  }
+  .service-detail__content--feature_image img{
+    width: 100%;
+  }
+}
