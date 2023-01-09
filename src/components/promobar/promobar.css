@@ -29,7 +29,7 @@
 /* 2lx screen */
 
 @media (min-width: 1536px){
-  .promobar .paragraph{
+  .promobar .paragraph span{
     font-size: 36px;
   }
 }

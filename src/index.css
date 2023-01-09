@@ -80,7 +80,6 @@ a:focus::before{
   padding: 0.5rem 2rem;
 
   font-family: var(--font-family);
-  font-weight: 700;
   color: var(--color-text-light);
   transition: all 0.25s ease-in ;
 }
