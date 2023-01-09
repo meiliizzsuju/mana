@@ -7,7 +7,8 @@ export const services =[
     presure: 'Medium to hard pressure',
     precaution: 'Due to its impact on the circulatory system, people with health conditions should consult with a GP first. Not recommended for after recent severe injury.  Not recommended for pregnant women.',
     banner_image: '/images/banner-thai.jpg',
-    feature_image: '/images/thai1.jpg'
+    feature_image: '/images/thai1.jpg',
+    cover_image: '/images/thai2.jpg'
   },
   {
     name: 'Thai Oil Massage',
