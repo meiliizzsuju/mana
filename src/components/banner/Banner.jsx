@@ -1,6 +1,5 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { Link,Route, Routes } from 'react-router-dom';
 
 import banner_1 from '../../assets/banner/banner1.jpg';
 import banner_2 from '../../assets/banner/banner2.jpg';
@@ -19,7 +18,6 @@ const BOOKNOW_BTN = "https://squareup.com/appointments/book/92uyj1egwnos8s/L1SCK
 
 const Banner = () => {
   const isMobile = useMediaQuery({ maxWidth: 550 })
-  const isRetina = useMediaQuery({ minResolution: '2dppx' })
 
   var settings = {
     dots: false,
