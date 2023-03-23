@@ -13,7 +13,7 @@ const Promobar = ({promomsg}) => {
     for (let i = 0; i < letters.length; i++) {
       const item = letters[i];
       const animDelay = `calc(.05s * ${i+1})`;
-      printLetter.push(<span style={{animationDelay: animDelay}} key={i} className={item === ' ' ? ('spacing paragraph') : 'paragraph'}>{item}</span>)
+      printLetter.push(<span aria-hidden="true" style={{animationDelay: animDelay}} key={i} className={item === ' ' ? ('spacing paragraph') : 'paragraph'}>{item}</span>)
     }
 
     return printLetter
@@ -29,7 +29,9 @@ const Promobar = ({promomsg}) => {
     }}>
       <section className='promobar section__padding'>
         <div className='content'>
-          <p className={`text-center `+ animate} style={{zIndex: 1}}>
+          <p className={`text-center ` + animate} style={{ zIndex: 1 }}
+            aria-label={promomsg}
+          >
             {animTextGen()}
           </p>
           
