@@ -49,6 +49,12 @@ const Reviews = () => {
 
       <div className='reviews__container'>
         <Slider {...settings}>
+          <Review msg='The team here is great: they provide a high quality massage and the studio is spotless. Got a 45 min foot massage to help with an ankle that had restricted motion and they managed to loosen it up. Masseuses are very good at diagnosing the source of the problem and working it out.'
+          stars={5}
+          />
+          <Review msg='Great massage and lady was so helpful and gave me tips what stretches to do. Felt so relaxed afterwards and definitely will be going back.'
+          stars={5}
+          />
           <Review msg='We just moved to the area and I had a wonderful experience here! The massage therapist was amazing and kind, and genuinely wanted to help. I left feeling so good. I’ll definitely be back! Thank you 🙏'
           stars={5}
           />
