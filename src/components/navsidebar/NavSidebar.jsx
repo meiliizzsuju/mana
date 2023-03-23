@@ -4,8 +4,6 @@ import { useNavigate } from 'react-router-dom';
 import './navsidebar.css'
 
 const NavSidebar = ({list,category,activepage,wrapperClass}) => {
-  const navigate = useNavigate();
-
   const getCategory = () => {
     let path = '/';
 
