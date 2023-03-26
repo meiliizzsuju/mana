@@ -28,13 +28,15 @@ const Promobar = ({promomsg}) => {
       }
     }}>
       <section className='promobar section__padding'>
-        <div className='content'>
-          <p className={`text-center ` + animate} style={{ zIndex: 1 }}
+        <div className='content text-center'>
+          {/* Pull back after helthfund is fixed */}
+          {/* <p className={`text-center ` + animate} style={{ zIndex: 1 }}
             aria-label={promomsg}
           >
             {animTextGen()}
-          </p>
-          
+          </p> */}
+          <p className='paragraph'>Health fund rebate is currently unavailable until mid-end of May</p>
+          <span>Thank you for your patience</span>
         </div>
       </section>
     </VisibilitySensor>
