@@ -2,12 +2,12 @@
   background-color: var(--color-tertiary);
 }
 
-.promobar .paragraph span{
+.promobar .paragraph{
   position: relative;
   display: inline-block;
 }
 
-.promobar .paragraph .spacing{
+.promobar .paragraph.spacing{
   width: 0.5rem;
 }
 
