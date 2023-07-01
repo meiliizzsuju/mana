@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Header,Banner,Services,Reviews,Footer,CTA,Promobar,TopBanner} from '../components/index';
+import {Header,Banner,Services,Reviews,Footer,CTA,PromobarAnimate,TopBanner} from '../components/index';
 
 
 const PAGE_NAME = `page-home`;
@@ -18,7 +18,7 @@ const Home = () => {
         link={BOOKNOW_BTN}
         btn_title="Book Now" 
       />
-      <Promobar promomsg='Remedial Massage health fund rebates are available on the spot.'/>
+      <PromobarAnimate promomsg='Remedial Massage health fund rebates are available on the spot.'/>
       <Reviews/>
       <Footer/>
     </div>
