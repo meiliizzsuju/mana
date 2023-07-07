@@ -24,7 +24,7 @@ export const services =[
     name: 'Organic Coconut Oil & Hot Stone Massage',
     slug: 'coconut-oil',
     description: 'Down to nature, we are using organic coconut oil for this massage session. The coconut oil can be absorbed easily and act like a shield for your skin from environmental toxins after massage. Also helping to diminish the signs of ageing. Additional with hot stone which provides deep aids to your muscle.',
-    price: 'AU$80 per 60 min',
+    price: 'AU$85 per 60 min',
     presure: 'Light to medium pressure',
     banner_image: '/images/coco+hotstone.jpg',
     cover_image: '/images/hot-stone.jpg'
