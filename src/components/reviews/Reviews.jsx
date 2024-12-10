@@ -52,6 +52,12 @@ const Reviews = () => {
           <Review msg='Mana Thai Massage and Wellness is a true treasure in the heart of Dee Why! The massages are absolutely lovely, and their lash services are second to none. Ornsaya did my lashes six weeks ago, and they still look as fresh and beautiful as the day she applied them. Such incredible quality! The team is super friendly, and you can really feel the care and dedication in this family-run business. Highly recommend this place for anyone looking for relaxation and top-notch beauty services!'
           stars={5}
           />
+          <Review msg='I went to Mana yesterday with the worst back and neck pain. I originally paid for a 60 minutes remedial massage, but it was so good that I ended up asking for another 30 minutes.
+Nicki was extremely attentive and knowledgeable, and her massage was divine. She really dedicated a lot of time to "untie the knots" in my back and I left feeling like a new person. She is lovely and has such a great energy!
+
+All the staff were very friendly (as all Thai people, hence why I love them). I will definitely be coming back and recommending it to all my friends!'
+          stars={5}
+          />
           <Review msg='The team here is great: they provide a high quality massage and the studio is spotless. Got a 45 min foot massage to help with an ankle that had restricted motion and they managed to loosen it up. Masseuses are very good at diagnosing the source of the problem and working it out.'
           stars={5}
           />
