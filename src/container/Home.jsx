@@ -18,7 +18,7 @@ const Home = () => {
         link={BOOKNOW_BTN}
         btn_title="Book Now" 
       />
-      <PromobarAnimate promomsg='Remedial Massage health fund rebates are available on the spot.'/>
+      {/* <PromobarAnimate promomsg='Remedial Massage health fund rebates are available on the spot.'/> */}
       <Reviews/>
       <Footer/>
     </div>
