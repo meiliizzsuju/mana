@@ -10,7 +10,7 @@ const BOOKNOW_BTN = "https://squareup.com/appointments/book/92uyj1egwnos8s/L1SCK
 const Home = () => {
   return (
     <div className={PAGE_NAME}>
-      <TopBanner/>
+      {/* <TopBanner/> */}
       <Header/>
       <Banner/>
       <Services/>
