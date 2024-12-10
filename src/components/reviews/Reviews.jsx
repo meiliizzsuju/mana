@@ -49,6 +49,9 @@ const Reviews = () => {
 
       <div className='reviews__container'>
         <Slider {...settings}>
+          <Review msg='Mana Thai Massage and Wellness is a true treasure in the heart of Dee Why! The massages are absolutely lovely, and their lash services are second to none. Ornsaya did my lashes six weeks ago, and they still look as fresh and beautiful as the day she applied them. Such incredible quality! The team is super friendly, and you can really feel the care and dedication in this family-run business. Highly recommend this place for anyone looking for relaxation and top-notch beauty services!'
+          stars={5}
+          />
           <Review msg='The team here is great: they provide a high quality massage and the studio is spotless. Got a 45 min foot massage to help with an ankle that had restricted motion and they managed to loosen it up. Masseuses are very good at diagnosing the source of the problem and working it out.'
           stars={5}
           />
