@@ -58,6 +58,9 @@ Nicki was extremely attentive and knowledgeable, and her massage was divine. She
 All the staff were very friendly (as all Thai people, hence why I love them). I will definitely be coming back and recommending it to all my friends!'
           stars={5}
           />
+          <Review msg="My partner and I were so pleased with our coconut oil massages tonight! The ladies were super friendly and accommodating. We had no wait time and they were both excellent massages. We came out so relaxed and were so happy we stumbled upon their business. Definitely recommend if you're looking for a peaceful space for a nap while getting a massage. Thank you so much ladies :)"
+          stars={5}
+          />
           <Review msg='The team here is great: they provide a high quality massage and the studio is spotless. Got a 45 min foot massage to help with an ankle that had restricted motion and they managed to loosen it up. Masseuses are very good at diagnosing the source of the problem and working it out.'
           stars={5}
           />
