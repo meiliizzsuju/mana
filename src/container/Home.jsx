@@ -1,5 +1,5 @@
 import React from 'react';
-
+// eslint-disable-next-line no-unused-vars
 import {Header,Banner,Services,Reviews,Footer,CTA,PromobarAnimate,TopBanner} from '../components/index';
 
 
@@ -10,7 +10,7 @@ const BOOKNOW_BTN = "https://squareup.com/appointments/book/92uyj1egwnos8s/L1SCK
 const Home = () => {
   return (
     <div className={PAGE_NAME}>
-
+      {/* <TopBanner/> */}
       <Header/>
       <Banner/>
       <Services/>
@@ -18,7 +18,7 @@ const Home = () => {
         link={BOOKNOW_BTN}
         btn_title="Book Now" 
       />
-
+      {/* <PromobarAnimate promomsg='Remedial Massage health fund rebates are available on the spot.'/> */}
       <Reviews/>
       <Footer/>
     </div>
