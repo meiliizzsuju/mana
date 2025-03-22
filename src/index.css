@@ -40,6 +40,10 @@ h1,h2,h3,h4,h5,.font-heading {
   font-family: 'Rufina', serif;
 }
 
+p{
+  margin-bottom: 20px;
+}
+
 .font-logo{
   font-family: var(--font-family-logo);
 }
@@ -117,10 +121,18 @@ a:focus::before{
   padding: 4rem 2rem;
 }
 
+.page-titile-margin{
+  margin-bottom: 20px;
+}
+
+.focus-container{
+  width: 100%;
+}
+
 
 /* headings */
 .heading{
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .paragraph{
@@ -171,6 +183,13 @@ a:focus::before{
   p,a,.btn,span{
     font-size: 19px; 
   }
+
+
+  .focus-container{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 
@@ -179,6 +198,10 @@ a:focus::before{
 @media (min-width: 1280px){
   .heading {
     font-size: 52px;
+  }
+
+  .page-titile-margin{
+    margin-bottom: 20px;
   }
 
   .paragraph {
@@ -204,5 +227,9 @@ a:focus::before{
 
   .paragraph {
     font-size: 48px;
+  }
+
+  .page-titile-margin{
+    margin-bottom: 40px;
   }
 }
