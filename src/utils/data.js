@@ -41,6 +41,6 @@ export const services =[
     name: 'Foot Massage',
     slug: 'foot-massage',
     description: "A foot massage is a therapeutic treatment in which the feet and ankles are massaged to promote relaxation and alleviate stress and tension. It is often performed using a combination of techniques, such as kneading, rubbing, and applying pressure to specific points on the feet. Some foot massage treatments may also include the use of oils or lotions to moisturize the skin and improve circulation. Foot massages can be relaxing and invigorating, and they may provide a number of health benefits, such as reducing pain and swelling, improving sleep, and boosting the immune system. Many people find foot massages to be a soothing and rejuvenating experience, and they may be especially beneficial for those who are on their feet for long periods of time or who experience discomfort or pain in their feet and ankles.",
-    price: 'AU$80 per 60 min',
+    price: 'AU$95 per 60 min',
   },
 ]
