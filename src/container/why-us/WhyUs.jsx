@@ -25,8 +25,8 @@ export const WhyUs = () => {
                   <p>Enjoy complete privacy during your massage. Our rooms have closed doors—no curtains, ensuring a quiet and comfortable experience.</p>
                 </li>
                 <li>
-                  <h3>2. All Female Therapists</h3> 
-                  <p>Feel at ease knowing that all our massage therapists are experienced and professional women, creating a safe and respectful environment.</p>
+                  <h3>2. Choose Your Own Therapist</h3> 
+                  <p>We understand that everyone has personal preferences, so we give you the option to choose the therapist you feel most comfortable with.</p>
                 </li>
                 <li>
                   <h3>3. Highly Trained & Experienced Therapists</h3> 
@@ -39,8 +39,8 @@ export const WhyUs = () => {
                   </p>
                 </li>
                 <li>
-                  <h3>5. HICAPS Available – Claim Your Massage on the Spot</h3> 
-                  <p>We accept HICAPS, allowing you to claim your massage instantly with your private health insurance—no need to wait for reimbursements!
+                  <h3>5. HICAPS for Remedial Massage</h3> 
+                  <p>We offer HICAPS for remedial massage, allowing you to claim your treatment instantly with your private health insurance—no waiting for reimbursements!
                   </p>
                 </li>
                 <li>
