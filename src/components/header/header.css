@@ -2,6 +2,17 @@
   display: none;
 }
 
+.header__nav li + li:before {
+  content: '•';
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.header__nav li + li{
+  display: flex;
+  margin-left: 0.5rem;
+}
+
 @media (max-width: 400px){
   .header__contact{
     flex-direction: column;

@@ -190,6 +190,19 @@ a:focus::before{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .why-choose-us h3{
+    font-size: 22px;
+  }
+
+  .why-choose-us ol{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .why-choose-us ol > li + li {
+    margin-bottom: 2rem;
+  }
 }
 
 
@@ -206,6 +219,15 @@ a:focus::before{
 
   .paragraph {
     font-size: 36px;
+  }
+
+  .why-choose-us ol{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .why-choose-us ol > li + li {
+    margin-bottom: 3rem;
   }
 }
 

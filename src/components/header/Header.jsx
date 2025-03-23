@@ -18,11 +18,19 @@ const Header = () => {
             <img src={logo} alt="logo" 
             />
           </Link>
-          
+          <nav className='md:hidden'>
+              <ul className='header__nav flex'>
+                <li><a href="/about-us">About us</a></li>
+                <li><a href="/why-choose-us">Why 'Mana'</a></li>
+                <li><a href="/services/remedial-deep">Our services</a></li>
+              </ul>
+            </nav>          
           <div className='header__contact flex items-center md:w-4/5 md:justify-end'>
-            <nav>
-              <ul className='flex mr-4'>
-                <li className='mr-4'><a href="/about-us">About us</a></li>
+            <nav className='hidden lg:block lg:mr-6'>
+              <ul className='header__nav flex'>
+                <li><a href="/about-us">About us</a></li>
+                <li><a href="/why-choose-us">Why 'Mana'</a></li>
+                <li><a href="/services/remedial-deep">Our services</a></li>
               </ul>
             </nav>
             <a href='tel:0280187443' className='m-1 mx-2'>Call : (02) 8018 7443</a>
