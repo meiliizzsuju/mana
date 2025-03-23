@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, Header, NavSidebar, PageBanner } from '../../components'
+import { Footer, Header, PageBanner } from '../../components'
 
 const PAGE_NAME = 'about-us';
 const BOOKNOW_BTN = "https://squareup.com/appointments/book/92uyj1egwnos8s/L1SCK0086N9VX/start";
@@ -30,7 +30,7 @@ export const About = () => {
             <p className='text-center'>
               <a href={BOOKNOW_BTN}
                 className='m-1 mx-2 btn lg:ml-4'
-                target='_blank'
+                target='_blank' rel="noreferrer"
               >
                 Book massage with us
               </a>

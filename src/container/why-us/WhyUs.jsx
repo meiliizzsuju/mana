@@ -77,7 +77,7 @@ export const WhyUs = () => {
               <p className='text-center'>
                 <a href={BOOKNOW_BTN}
                   className='m-1 mx-2 btn lg:ml-4'
-                  target='_blank'
+                  target='_blank' rel="noreferrer"
                 >
                   Book massage at Mana
                 </a>
