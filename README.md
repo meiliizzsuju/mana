@@ -10,3 +10,6 @@ preview link : https://meiliizzsuju.github.io/mana/
 
 Live : https://mana-wellness.com.au/
 
+Run 'npm start' for local view
+
+Once done dev run 'npm run build'
