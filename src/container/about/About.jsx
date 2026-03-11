@@ -1,5 +1,6 @@
 import React from 'react'
 import { Footer, Header, PageBanner } from '../../components'
+import Modal from '../../components/modal/Modal';
 
 const PAGE_NAME = 'about-us';
 const BOOKNOW_BTN = "https://squareup.com/appointments/book/92uyj1egwnos8s/L1SCK0086N9VX/start";
@@ -14,16 +15,16 @@ export const About = () => {
         <div className={PAGE_NAME + '__content section__padding'}>
           <div className='has-image container mx-auto'>
             <h2 className='paragraph page-titile-margin text-center'>Thank you for visiting Mana Thai Massage & Wellness!</h2>
-            <div className='focus-container'>  
+            <div className='focus-container'>
               <p>
-              We are a Thai family-owned business in Dee Why, offering authentic and professional Thai massage services. While Mana was established in 2022, our experience in the Thai massage industry spans over 15 years.
+                We are a Thai family-owned business in Dee Why, offering authentic and professional Thai massage services. While Mana was established in 2022, our experience in the Thai massage industry spans over 15 years.
               </p>
               <p>
-              Our mission is to provide a relaxing and rejuvenating experience tailored to your needs. Whether you’re seeking relief from muscle tension, stress, or simply want to unwind, our trained female massage therapists are here to help. We take pride in delivering high-quality treatments in a warm and welcoming environment.
+                Our mission is to provide a relaxing and rejuvenating experience tailored to your needs. Whether you’re seeking relief from muscle tension, stress, or simply want to unwind, our trained female massage therapists are here to help. We take pride in delivering high-quality treatments in a warm and welcoming environment.
               </p>
 
               <p>
-              Your well-being is our priority. Let us know how we can assist you—book your massage today and feel the difference with Mana Thai Massage & Wellness.
+                Your well-being is our priority. Let us know how we can assist you—book your massage today and feel the difference with Mana Thai Massage & Wellness.
               </p>
             </div>
 
@@ -44,6 +45,7 @@ export const About = () => {
         </div>
 
       </div>
+      <Modal />
       <Footer />
     </div>
   )
