@@ -2,25 +2,52 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const Modal = ({ modalmsg }) => {
   const dialogRef = useRef(null);
-  const [isVisible, setIsVisible] = useState(true); // Control visibility with state
+  const STORAGE_KEY = 'hasSeenPregnancyModal';
+  const EXPIRY_MS = 30 * 60 * 1000; // 30 minutes in milliseconds
+
+  const [isVisible, setIsVisible] = useState(() => {
+    const savedData = localStorage.getItem(STORAGE_KEY);
+
+    if (!savedData) return true;
+
+    try {
+      const { timestamp } = JSON.parse(savedData);
+      const now = new Date().getTime();
+
+      // Check if 30 minutes have passed
+      if (now - timestamp > EXPIRY_MS) {
+        localStorage.removeItem(STORAGE_KEY); // Clean up expired data
+        return true;
+      }
+      return false; // Still within the 30-minute window
+    } catch (e) {
+      return true; // If data is corrupted, show modal safely
+    }
+  });
 
   useEffect(() => {
-    // Only trigger if state is true and ref exists
     if (isVisible && dialogRef.current && !dialogRef.current.open) {
       dialogRef.current.showModal();
     }
   }, [isVisible]);
 
   const handleClose = (e) => {
-    e.preventDefault(); // Prevent any form submission behavior
+    if (e) e.preventDefault();
+
+    // Store the current time
+    const data = {
+      value: 'true',
+      timestamp: new Date().getTime(),
+    };
+
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 
     if (dialogRef.current) {
-      dialogRef.current.close(); // Close native dialog
+      dialogRef.current.close();
     }
-    setIsVisible(false); // Remove from React state
+    setIsVisible(false);
   };
 
-  // If state is false, don't render anything
   if (!isVisible) return null;
 
   return (
